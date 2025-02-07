@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "migrate": "node scripts/migrate.mjs"
+    "migrate": "node scripts/migrate.mjs",
+    "import-data": "node scripts/migrate.mjs'"
   },
   "dependencies": {
     "@radix-ui/react-accordion": "^1.2.2",
@@ -17,14 +18,14 @@
     "@radix-ui/react-slider": "^1.2.2",
     "@radix-ui/react-slot": "^1.1.1",
     "@reduxjs/toolkit": "^2.5.0",
-    "@sanity/client": "^6.25.0",
+    "@sanity/client": "^6.27.2",
     "@sanity/image-url": "^1.1.0",
     "@sanity/vision": "^3.70.0",
     "axios": "^1.7.9",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotenv": "^16.4.7",
-    "embla-carousel-react": "^8.5.1",
+    "embla-carousel-react": "^8.5.2",
     "framer-motion": "^11.13.5",
     "lucide-react": "^0.468.0",
     "next": "^14.2.21",
